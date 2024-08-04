@@ -1,0 +1,42 @@
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.env/
+
+# IDE and editor specific
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosx
+*.swp
+*.swo
+*.tmp
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Miscellaneous
+*.orig
+*.bak
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
